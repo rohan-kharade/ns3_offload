@@ -55,7 +55,7 @@ using namespace ns3;
 
 static void PrintPositions( std::string s, NodeContainer& staNodes)
 {
-  std::cout << "t = " << Simulator::Now ().GetMicroSeconds()/1000000.0 << " " << s << std::endl; 
+  std::cout << "\nt = " << Simulator::Now ().GetMicroSeconds()/1000000.0 << " " << s << std::endl; 
     for (uint32_t i=0; i < staNodes.GetN(); i++ ){
       Ptr<MobilityModel> mob = staNodes.Get(i)->GetObject<MobilityModel>();
       Vector pos = mob->GetPosition ();
@@ -269,7 +269,7 @@ int main (int argc, char *argv[])
   client.SetAttribute("PacketSize",UintegerValue (1450));    
   ApplicationContainer cln_apps = client.Install (serverNode); //cli = UDP send
   cln_apps.Start (Seconds (0.5));
-  cln_apps.Stop (Seconds (60.0));
+  cln_apps.Stop (Seconds (48.0));
 
   // Trace routing tables 
   Ipv4GlobalRoutingHelper g;
@@ -284,7 +284,7 @@ int main (int argc, char *argv[])
   outputConfig2.ConfigureAttributes ();
 
   
-  Simulator::Stop (Seconds (60.0));
+  Simulator::Stop (Seconds (48.0));
   Simulator::Run ();
   Simulator::Destroy ();
 }

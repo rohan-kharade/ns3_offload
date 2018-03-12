@@ -613,20 +613,30 @@ ApWifiMac::Receive (Ptr<Packet> packet, const WifiMacHeader *hdr)
                      }
                   m_stationManager->RecordWaitAssocTxOk (from);
                   // send assoc response with success status.
-                     std::string S1 = "00:00:00:00:00:0b";
-                     const char* s1 =  S1.c_str();
-                      std::string S2 = "00:00:00:00:00:0a";
-                     const char* s2 =  S2.c_str();
-                   if ( hdr->GetAddr1 ()==Mac48Address(s1) &&  hdr->GetAddr2 ()==Mac48Address(s2))
+                      std::string S1 = "00:00:00:00:00:0b";
+                      const char* s1 =  S1.c_str();
+                      std::string S2 = "00:00:00:00:00:0d";
+                      const char* s2 =  S2.c_str();
+                      std::string S3 = "00:00:00:00:00:0a";
+                      const char* s3 =  S3.c_str();
+                 
+                   if ( hdr->GetAddr1 ()==Mac48Address(s1) &&  hdr->GetAddr2 ()==Mac48Address(s3))
                        {
-                          std::cout<<"\n\n Hello World !! \n\n";
+                         // std::cout<<"\n\n Hello World !! \n\n";
                           //SendAssocResp (hdr->GetAddr2 (), false);
-                          std::cout<<"  STA MAC : "<<hdr->GetAddr2 ()<<" ; AP MAC : "<<hdr->GetAddr1 ()<<"\n";
+                         std::cout<<"\n Association request -> STA MAC : "<<hdr->GetAddr2 ()<<" ; AP MAC : "<<hdr->GetAddr1 ()<<"\n";
                        }
-                   else
+                   else if ( hdr->GetAddr1 ()==Mac48Address(s2) &&  hdr->GetAddr2 ()==Mac48Address(s3))
+                       {
+                         // std::cout<<"\n\n Hello World !! \n\n";
+                           SendAssocResp (hdr->GetAddr2 (), true);
+                          std::cout<<"\n Association request ->  STA MAC : "<<hdr->GetAddr2 ()<<" ; AP MAC : "<<hdr->GetAddr1 ()<<"\n";
+                       }
+
+                    else
                      {
                   SendAssocResp (hdr->GetAddr2 (), true);
-                        std::cout<<" STA MAC : "<<hdr->GetAddr2 ()<<"  ; AP MAC : "<<hdr->GetAddr1 ()<<"\n";
+                        std::cout<<"\n Association request -> STA MAC : "<<hdr->GetAddr2 ()<<"  ; AP MAC : "<<hdr->GetAddr1 ()<<"\n";
                      }
                 }
               return;

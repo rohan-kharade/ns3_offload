@@ -20,11 +20,13 @@
  * Author: Mirko Banchi <mk.banchi@gmail.com>
  */
 #include "sta-wifi-mac.h"
+#include "ns3/string.h"
 
 #include "ns3/log.h"
 #include "ns3/simulator.h"
 #include "ns3/string.h"
 #include "ns3/pointer.h"
+
 #include "ns3/boolean.h"
 #include "ns3/enum.h"
 #include "ns3/trace-source-accessor.h"
@@ -374,10 +376,18 @@ StaWifiMac::TryToEnsureAssociated (void)
 
 void
 StaWifiMac::AssocRequestTimeout (void)
-{
+{ 
   NS_LOG_FUNCTION (this);
-  SetState (WAIT_ASSOC_RESP);
-  SendAssociationRequest ();
+  Mac48Address bssid = (this->GetBssid ());
+  std::cout<<"Association time out for "<<(bssid)<<"\n";
+  next_m_bestAP = &m_scanResults[1];
+ // m_bestAP = next_m_bestAP;
+  std::cout<<"Next best AP "<<next_m_bestAP->bssid<<"\n";
+   this->SetSsid (next_m_bestAP->ssid);
+   this->SetBssid (next_m_bestAP->bssid);
+
+    SetState (WAIT_ASSOC_RESP);
+    SendAssociationRequest ();
 }
 
 void
@@ -655,6 +665,7 @@ StaWifiMac::Receive (Ptr<Packet> packet, const WifiMacHeader *hdr)
     }
   else if (hdr->IsAssocResp ())
     {
+      
       if (m_state == WAIT_ASSOC_RESP)
         {
           MgtAssocResponseHeader assocResp;
@@ -666,6 +677,7 @@ StaWifiMac::Receive (Ptr<Packet> packet, const WifiMacHeader *hdr)
           if (assocResp.GetStatusCode ().IsSuccess ())
             {
               SetState (ASSOCIATED);
+              std::cout<<(*hdr)<<"";
               NS_LOG_DEBUG ("assoc completed");
               SupportedRates rates = assocResp.GetSupportedRates ();
               if (m_htSupported)
@@ -816,6 +828,9 @@ StaWifiMac::ScanningStart(void)
   m_scanResults.clear ();
   m_low->EnableForwardSnr (true);
   m_bestAP = NULL;
+  m_bestAP_List = NULL;
+  next_m_bestAP = NULL;
+
   Simulator::ScheduleNow (&StaWifiMac::ScanningSwitchChannelStart, this);
 }
 
@@ -835,8 +850,20 @@ StaWifiMac::ScanningEnd(void)
     }
   else
     {
-      NS_LOG_DEBUG ("scan result: number of aps is " << m_scanResults.size ());
-      m_bestAP = &m_scanResults[0];
+      NS_LOG_DEBUG ("\nscan result: number of aps is " << m_scanResults.size ());
+      
+      // Print AP list
+      std::cout<<"\nScanning List : \n";
+      for (int i=0;i< m_scanResults.size (); i++) 
+        {
+        m_bestAP_List = &m_scanResults[i];
+        std::cout<<m_bestAP_List->bssid<<"\n";
+        }
+      // Print AP list
+     m_bestAP = &m_scanResults[0];
+   
+         
+      
 
       for (uint32_t i = 1; i < size; i++)
         {
@@ -845,7 +872,7 @@ StaWifiMac::ScanningEnd(void)
               m_bestAP = &m_scanResults[i];
             }
         }
-      NS_LOG_DEBUG ("bestAP: " << m_bestAP->channelNumber << " " << m_bestAP->ssid << " " << m_bestAP->bssid);
+      NS_LOG_DEBUG ("\nbestAP: " << m_bestAP->channelNumber << " " << m_bestAP->ssid << " " << m_bestAP->bssid);
       m_phy->SetChannelNumber (m_bestAP->channelNumber);
     }
 }
@@ -892,9 +919,20 @@ StaWifiMac::ScanningSwitchChannelEnd(void)
       }
     else
       {
-        SetSsid (m_bestAP->ssid);
-        SetState (WAIT_PROBE_RESP);
-        SendProbeRequest();
+      // if(next_m_bestAP == NULL)
+        //  {  
+          // std::cout<<"next_m_bestAP == NULL"<<next_m_bestAP->ssid;
+           SetSsid (m_bestAP->ssid);
+           SetState (WAIT_PROBE_RESP);
+           SendProbeRequest();
+        /*   }
+        else
+            {
+           std::cout<<"next_m_bestAP != NULL "<<next_m_bestAP->ssid;
+           SetSsid (next_m_bestAP->ssid);
+           SetState (WAIT_PROBE_RESP);
+           SendProbeRequest();
+          } */
       }
 }
 

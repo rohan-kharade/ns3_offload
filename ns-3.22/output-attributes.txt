@@ -1327,7 +1327,7 @@ value /$ns3::NodeListPriv/NodeList/3/$ns3::Node/ApplicationList/0/$ns3::UdpClien
 value /$ns3::NodeListPriv/NodeList/3/$ns3::Node/ApplicationList/0/$ns3::UdpClient/RemotePort "9"
 value /$ns3::NodeListPriv/NodeList/3/$ns3::Node/ApplicationList/0/$ns3::UdpClient/PacketSize "1450"
 value /$ns3::NodeListPriv/NodeList/3/$ns3::Node/ApplicationList/0/$ns3::UdpClient/StartTime "+500000000.0ns"
-value /$ns3::NodeListPriv/NodeList/3/$ns3::Node/ApplicationList/0/$ns3::UdpClient/StopTime "+60000000000.0ns"
+value /$ns3::NodeListPriv/NodeList/3/$ns3::Node/ApplicationList/0/$ns3::UdpClient/StopTime "+48000000000.0ns"
 value /$ns3::NodeListPriv/NodeList/3/$ns3::Node/$ns3::Ipv4L3Protocol/DefaultTos "0"
 value /$ns3::NodeListPriv/NodeList/3/$ns3::Node/$ns3::Ipv4L3Protocol/DefaultTtl "64"
 value /$ns3::NodeListPriv/NodeList/3/$ns3::Node/$ns3::Ipv4L3Protocol/FragmentExpirationTimeout "+30000000000.0ns"

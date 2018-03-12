@@ -246,6 +246,9 @@ private:
   std::vector<ScanningEntry> m_scanResults;
   EventId m_scanChannelEvent;
   ScanningEntry* m_bestAP;
+  ScanningEntry* next_m_bestAP;
+  ScanningEntry* m_bestAP_List;
+
 
   TracedCallback<Mac48Address> m_assocLogger;
   TracedCallback<Mac48Address> m_deAssocLogger;

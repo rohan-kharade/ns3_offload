@@ -1,431 +1,995 @@
-Waf: Entering directory `/home/rohan/ns-allinone-3.22/ns-3.22/build'
-Waf: Leaving directory `/home/rohan/ns-allinone-3.22/ns-3.22/build'
-'build' finished successfully (0.774s)
+Waf: Entering directory `/home/rohan/gitrepo/ns3_offload/ns-3.22/build'
+Waf: Leaving directory `/home/rohan/gitrepo/ns3_offload/ns-3.22/build'
+'build' finished successfully (0.736s)
 At time 0 /NodeList/5/$ns3::MobilityModel/CourseChange x = 0, y = 0
 At time 0 /NodeList/5/$ns3::MobilityModel/CourseChange x = 0, y = 0
 t = 0 ap0
 0:  0, 0
+really restart watchdog.
+really restart watchdog.
+assoc completed
+assoc completed
 
 
-1:  0, 10
-
-
-AP Mac : 00:00:00:00:00:0c
-AP Mac : 00:00:00:00:00:09
-AP Mac : 00:00:00:00:00:09
-AP Mac : 00:00:00:00:00:0c
 t = 1 ap0
 0:  10, 0
-
-
-1:  0, 10
 
 
 t = 2 ap0
 0:  20, 0
 
 
-1:  0, 10
-
-
 t = 3 ap0
 0:  30, 0
-
-
-1:  0, 10
 
 
 t = 4 ap0
 0:  40, 0
 
 
-1:  0, 10
-
-
 t = 5 ap0
 0:  50, 0
-
-
-1:  0, 10
 
 
 t = 6 ap0
 0:  60, 0
 
 
-1:  0, 10
-
-
 t = 7 ap0
 0:  70, 0
-
-
-1:  0, 10
 
 
 t = 8 ap0
 0:  80, 0
 
 
-1:  0, 10
-
-
 t = 9 ap0
 0:  90, 0
-
-
-1:  0, 10
 
 
 t = 10 ap0
 0:  100, 0
 
 
-1:  0, 10
-
-
 t = 11 ap0
 0:  110, 0
-
-
-1:  0, 10
 
 
 t = 12 ap0
 0:  120, 0
 
 
-1:  0, 10
-
-
 t = 13 ap0
 0:  130, 0
-
-
-1:  0, 10
 
 
 t = 14 ap0
 0:  140, 0
 
 
-1:  0, 10
-
-
 t = 15 ap0
 0:  150, 0
-
-
-1:  0, 10
 
 
 t = 16 ap0
 0:  160, 0
 
 
-1:  0, 10
-
-
 t = 17 ap0
 0:  170, 0
 
 
-1:  0, 10
-
-
 t = 18 ap0
 0:  180, 0
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+scan result: number of aps is 2
+
+bestAP: 6 wifi-default 00:00:00:00:00:0b
+really restart watchdog.
 
 
-1:  0, 10
-
-
-AP Mac : 00:00:00:00:00:0c
+AP List : 
+00:00:00:00:00:0b
+00:00:00:00:00:0d
 t = 19 ap0
 0:  190, 0
 
 
-1:  0, 10
-
-
+Association time out for 00:00:00:00:00:0b
+Next best AP 00:00:00:00:00:0d
+Association time out for 00:00:00:00:00:0d
+Next best AP 00:00:00:00:00:0d
 t = 20 ap0
 0:  200, 0
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+scan result: number of aps is 2
+
+bestAP: 6 wifi-default 00:00:00:00:00:0b
+really restart watchdog.
 
 
-1:  0, 10
-
-
+Association time out for 00:00:00:00:00:0d
+Next best AP 00:00:00:00:00:0d
+AP List : 
+00:00:00:00:00:0b
+00:00:00:00:00:0d
 t = 21 ap0
 0:  210, 0
 
 
-1:  0, 10
-
-
+Association time out for 00:00:00:00:00:0b
+Next best AP 00:00:00:00:00:0d
+Association time out for 00:00:00:00:00:0d
+Next best AP 00:00:00:00:00:0d
 t = 22 ap0
 0:  220, 0
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+scan result: number of aps is 2
+
+bestAP: 6 wifi-default 00:00:00:00:00:0b
+really restart watchdog.
 
 
-1:  0, 10
-
-
+Association time out for 00:00:00:00:00:0d
+Next best AP 00:00:00:00:00:0d
+AP List : 
+00:00:00:00:00:0b
+00:00:00:00:00:0d
+Association time out for 00:00:00:00:00:0b
+Next best AP 00:00:00:00:00:0d
 t = 23 ap0
 0:  230, 0
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+scan result: number of aps is 2
+
+bestAP: 11 wifi-default 00:00:00:00:00:0d
+really restart watchdog.
+assoc completed
 
 
-1:  0, 10
-
-
+Association time out for 00:00:00:00:00:0d
+Next best AP 00:00:00:00:00:0d
+Association time out for 00:00:00:00:00:0d
+Next best AP 00:00:00:00:00:0d
+AP List : 
+00:00:00:00:00:0b
+00:00:00:00:00:0d
 t = 24 ap0
 0:  240, 0
-
-
-1:  0, 10
 
 
 t = 25 ap0
 0:  250, 0
 
 
-1:  0, 10
-
-
 t = 26 ap0
 0:  260, 0
-
-
-1:  0, 10
 
 
 t = 27 ap0
 0:  270, 0
 
 
-1:  0, 10
-
-
 t = 28 ap0
 0:  280, 0
-
-
-1:  0, 10
 
 
 t = 29 ap0
 0:  290, 0
 
 
-1:  0, 10
-
-
 t = 30 ap0
 0:  300, 0
-
-
-1:  0, 10
 
 
 t = 31 ap0
 0:  310, 0
 
 
-1:  0, 10
-
-
 t = 32 ap0
 0:  320, 0
-
-
-1:  0, 10
 
 
 t = 33 ap0
 0:  330, 0
 
 
-1:  0, 10
-
-
-AP Mac : 00:00:00:00:00:0f
 t = 34 ap0
 0:  340, 0
-
-
-1:  0, 10
 
 
 t = 35 ap0
 0:  350, 0
 
 
-1:  0, 10
-
-
 t = 36 ap0
 0:  360, 0
-
-
-1:  0, 10
 
 
 t = 37 ap0
 0:  370, 0
 
 
-1:  0, 10
-
-
 t = 38 ap0
 0:  380, 0
-
-
-1:  0, 10
 
 
 t = 39 ap0
 0:  390, 0
 
 
-1:  0, 10
-
-
 t = 40 ap0
 0:  400, 0
-
-
-1:  0, 10
 
 
 t = 41 ap0
 0:  410, 0
 
 
-1:  0, 10
-
-
 t = 42 ap0
 0:  420, 0
-
-
-1:  0, 10
 
 
 t = 43 ap0
 0:  430, 0
 
 
-1:  0, 10
-
-
 t = 44 ap0
 0:  440, 0
-
-
-1:  0, 10
 
 
 t = 45 ap0
 0:  450, 0
 
 
-1:  0, 10
-
-
 t = 46 ap0
 0:  460, 0
-
-
-1:  0, 10
 
 
 t = 47 ap0
 0:  470, 0
 
 
-1:  0, 10
-
-
 t = 48 ap0
 0:  480, 0
-
-
-1:  0, 10
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
 
 
 t = 49 ap0
 0:  490, 0
-
-
-1:  0, 10
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
 
 
 t = 50 ap0
 0:  500, 0
-
-
-1:  0, 10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
 
 
 t = 51 ap0
 0:  510, 0
-
-
-1:  0, 10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
 
 
 t = 52 ap0
 0:  520, 0
-
-
-1:  0, 10
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
 
 
 t = 53 ap0
 0:  530, 0
-
-
-1:  0, 10
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
 
 
 t = 54 ap0
 0:  540, 0
-
-
-1:  0, 10
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
 
 
 t = 55 ap0
 0:  550, 0
-
-
-1:  0, 10
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
 
 
 t = 56 ap0
 0:  560, 0
-
-
-1:  0, 10
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
 
 
 t = 57 ap0
 0:  570, 0
-
-
-1:  0, 10
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
 
 
 t = 58 ap0
 0:  580, 0
-
-
-1:  0, 10
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
 
 
 t = 59 ap0
 0:  590, 0
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
+switch to channel number:6
+switch to channel number:7
+switch to channel number:8
+switch to channel number:9
+switch to channel number:10
+switch to channel number:11
+switch to channel number:12
+start scanning
+switch to channel number:1
+switch to channel number:2
+switch to channel number:3
+switch to channel number:4
+switch to channel number:5
 
 
-1:  0, 10
-
-
+Waf: Entering directory `/home/rohan/gitrepo/ns3_offload/ns-3.22/build'
+[1616/1788] cxx: src/wifi/model/ap-wifi-mac.cc -> build/src/wifi/model/ap-wifi-mac.cc.1.o
+Waf: Leaving directory `/home/rohan/gitrepo/ns3_offload/ns-3.22/build'
+Interrupted 
